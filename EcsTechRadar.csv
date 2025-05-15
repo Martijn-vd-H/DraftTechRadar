@@ -1,43 +1,43 @@
-name,type,ring,isNew,status,description
-Dapper,Languages & frameworks,Trial,TRUE,new,Lightweight ORM for .NET, ideal for high-performance data access.
-.NET Framework 4.7.2,Languages & frameworks,Hold,TRUE,new,Legacy .NET framework; used for maintaining existing applications.
-.NET6,Languages & frameworks,Adopt,TRUE,new,LTS version of .NET; unified platform for building modern apps.
-.NET8,Languages & frameworks,Assess,TRUE,new,Latest .NET version with performance improvements; evaluate for future projects.
-Entity Framework,Languages & frameworks,Adopt,TRUE,new,ORM for .NET enabling developers to work with relational data using domain-specific objects.
-NUnit,Languages & frameworks,Adopt,TRUE,new,Unit-testing framework for all .NET languages.
-XUnit,Languages & frameworks,Adopt,TRUE,new,Community-focused unit testing tool for the .NET Framework.
-FluentAssertions,Languages & frameworks,Adopt,TRUE,new,Provides a more natural way to write assertions in unit tests.
-Automapper,Languages & frameworks,Adopt,TRUE,new,Convention-based object-object mapper for .NET.
-Moq,Languages & frameworks,Adopt,TRUE,new,Popular mocking framework for .NET.
-Automoqer,Languages & frameworks,Trial,TRUE,new,Automatically creates services for unit testing with constructor parameters as Moq-objects.
-Autofixture,Languages & frameworks,Trial,TRUE,new,Tool designed to make Test-Driven Development more productive and unit tests more refactoring-safe.
-FluentValidation,Languages & frameworks,Adopt,TRUE,new,.NET library for building strongly-typed validation rules.
-Domain Driven Design,Techniques,Adopt,TRUE,new,Software design approach focusing on modeling software to match a domain.
-CQRS,Techniques,Assess,TRUE,new,Pattern that separates data mutation from the query part of a system.
-Command/Mediator Pattern,Techniques,Assess,TRUE,new,Design pattern to encapsulate requests as objects, allowing for parameterization and queuing.
-ASP.NET,Languages & frameworks,Adopt,TRUE,new,Open-source web framework for building modern web apps and services.
-Azure Blob Storage,Platforms,Adopt,TRUE,new,Microsoft's object storage solution for the cloud.
-Azure SQL Database,Platforms,Adopt,TRUE,new,Managed relational database service by Microsoft Azure.
-Azure Service Bus,Platforms,Adopt,TRUE,new,Messaging service for connecting applications and services.
-Azure Queue,Platforms,Adopt,TRUE,new,Cloud-based message queue for storing large numbers of messages.
-Azure Webjobs,Platforms,Trial,TRUE,new,Feature of Azure App Service for running background tasks.
-Azure Virtual Machines,Platforms,Adopt,TRUE,new,Scalable computing resources in Azure.
-PDF Libraries,Tools,Assess,TRUE,new,Tools for generating and manipulating PDF documents.
-Playwright,Tools,Trial,TRUE,new,Framework for Web Testing and Automation.
-Blazor,Languages & frameworks,Trial,TRUE,new,Framework for building interactive web UIs using C# instead of JavaScript.
-ASP.NET Razor,Languages & frameworks,Adopt,TRUE,new,Markup syntax for embedding server-based code into web pages.
-ASP.NET MVC,Languages & frameworks,Hold,TRUE,new,Framework for building scalable, standards-based web applications.
-Elmah,Tools,Hold,TRUE,new,Error logging library for ASP.NET applications.
-Parquet,Tools,Assess,TRUE,new,Columnar storage file format optimized for use with big data processing frameworks.
-EnsureThat,Tools,Trial,TRUE,new,Library for parameter validation in .NET.
-State Machine Libraries,Tools,Assess,TRUE,new,Libraries for implementing state machines in applications.
-Bootstrap,Tools,Adopt,TRUE,new,Popular CSS framework for developing responsive and mobile-first websites.
-MudBlazor,Tools,Trial,TRUE,new,Blazor Component library based on Material Design.
-Azure Pipelines,Platforms,Adopt,TRUE,new,CI/CD service provided by Azure DevOps.
-LINQ,Languages & frameworks,Adopt,TRUE,new,Language-integrated query for data manipulation.
-MoreLINQ,Languages & frameworks,Trial,TRUE,new,Extensions to LINQ to offer more functionality.
-Bogus,Tools,Trial,TRUE,new,Simple and sane fake data generator for .NET languages.
-SOAP,Techniques,Hold,TRUE,new,Protocol for exchanging structured information in web services.
-Quartz,Tools,Trial,TRUE,new,Open-source job scheduling system.
-Newtonsoft.Json,Tools,Adopt,TRUE,new,Popular high-performance JSON framework for .NET.
-StructureMap,Tools,Hold,TRUE,new,Dependency injection framework for .NET.
+name,quadrant,ring,isNew,description
+Dapper,Languages & frameworks,Trial,TRUE,Lightweight ORM for .NET, ideal for high-performance data access.
+.NET Framework 4.7.2,Languages & frameworks,Hold,TRUE,Legacy .NET framework; used for maintaining existing applications.
+.NET6,Languages & frameworks,Adopt,TRUE,LTS version of .NET; unified platform for building modern apps.
+.NET8,Languages & frameworks,Assess,TRUE,Latest .NET version with performance improvements; evaluate for future projects.
+Entity Framework,Languages & frameworks,Adopt,TRUE,ORM for .NET enabling developers to work with relational data using domain-specific objects.
+NUnit,Languages & frameworks,Adopt,TRUE,Unit-testing framework for all .NET languages.
+XUnit,Languages & frameworks,Adopt,TRUE,Community-focused unit testing tool for the .NET Framework.
+FluentAssertions,Languages & frameworks,Adopt,TRUE,Provides a more natural way to write assertions in unit tests.
+Automapper,Languages & frameworks,Adopt,TRUE,Convention-based object-object mapper for .NET.
+Moq,Languages & frameworks,Adopt,TRUE,Popular mocking framework for .NET.
+Automoqer,Languages & frameworks,Trial,TRUE,Automatically creates services for unit testing with constructor parameters as Moq-objects.
+Autofixture,Languages & frameworks,Trial,TRUE,Tool designed to make Test-Driven Development more productive and unit tests more refactoring-safe.
+FluentValidation,Languages & frameworks,Adopt,TRUE,.NET library for building strongly-typed validation rules.
+Domain Driven Design,Techniques,Adopt,TRUE,Software design approach focusing on modeling software to match a domain.
+CQRS,Techniques,Assess,TRUE,Pattern that separates data mutation from the query part of a system.
+Command/Mediator Pattern,Techniques,Assess,TRUE,Design pattern to encapsulate requests as objects, allowing for parameterization and queuing.
+ASP.NET,Languages & frameworks,Adopt,TRUE,Open-source web framework for building modern web apps and services.
+Azure Blob Storage,Platforms,Adopt,TRUE,Microsoft's object storage solution for the cloud.
+Azure SQL Database,Platforms,Adopt,TRUE,Managed relational database service by Microsoft Azure.
+Azure Service Bus,Platforms,Adopt,TRUE,Messaging service for connecting applications and services.
+Azure Queue,Platforms,Adopt,TRUE,Cloud-based message queue for storing large numbers of messages.
+Azure Webjobs,Platforms,Trial,TRUE,Feature of Azure App Service for running background tasks.
+Azure Virtual Machines,Platforms,Adopt,TRUE,Scalable computing resources in Azure.
+PDF Libraries,Tools,Assess,TRUE,Tools for generating and manipulating PDF documents.
+Playwright,Tools,Trial,TRUE,Framework for Web Testing and Automation.
+Blazor,Languages & frameworks,Trial,TRUE,Framework for building interactive web UIs using C# instead of JavaScript.
+ASP.NET Razor,Languages & frameworks,Adopt,TRUE,Markup syntax for embedding server-based code into web pages.
+ASP.NET MVC,Languages & frameworks,Hold,TRUE,Framework for building scalable, standards-based web applications.
+Elmah,Tools,Hold,TRUE,Error logging library for ASP.NET applications.
+Parquet,Tools,Assess,TRUE,Columnar storage file format optimized for use with big data processing frameworks.
+EnsureThat,Tools,Trial,TRUE,Library for parameter validation in .NET.
+State Machine Libraries,Tools,Assess,TRUE,Libraries for implementing state machines in applications.
+Bootstrap,Tools,Adopt,TRUE,Popular CSS framework for developing responsive and mobile-first websites.
+MudBlazor,Tools,Trial,TRUE,Blazor Component library based on Material Design.
+Azure Pipelines,Platforms,Adopt,TRUE,CI/CD service provided by Azure DevOps.
+LINQ,Languages & frameworks,Adopt,TRUE,Language-integrated query for data manipulation.
+MoreLINQ,Languages & frameworks,Trial,TRUE,Extensions to LINQ to offer more functionality.
+Bogus,Tools,Trial,TRUE,Simple and sane fake data generator for .NET languages.
+SOAP,Techniques,Hold,TRUE,Protocol for exchanging structured information in web services.
+Quartz,Tools,Trial,TRUE,Open-source job scheduling system.
+Newtonsoft.Json,Tools,Adopt,TRUE,Popular high-performance JSON framework for .NET.
+StructureMap,Tools,Hold,TRUE,Dependency injection framework for .NET.
